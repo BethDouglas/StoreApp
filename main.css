@@ -1,3 +1,52 @@
 body {
-	background-color: gray;
+	font-family: 'Comfortaa', cursive;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+header {
+	font: peachPuff;
+}
+
+#main-header {
+	height: 80px;
+
+}
+
+/*Logo*/
+
+.logo{
+	height:100px;
+	width:100px;
+	float: left;
+	margin-right: 5px;
+}
+
+/*Title*/
+#header-name {
+	font-size: 40px;
+	padding: 15px;
+	margin-top: 50%;
+
+}
+
+/*Search*/
+
+#search{
+	float: right;
+	padding: 5px;
+	margin: 10px 10px 0px 0px;
+
+}
+
+/* Banner Section */
+
+#main-image{
+
+}
+
+#cookie-day{
+	
 }
