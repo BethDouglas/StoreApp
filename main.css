@@ -1,76 +1,150 @@
 
 body {
 	font-family: 'Comfortaa', cursive;
+	/*background: url(Images/Sugar.jpg) no-repeat fixed top center;*/
+	padding: 0;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
 
+	/*-webkit -background-size: 100% 100%;
+	-moz -background-size: 100% 100%;
+	background-size: 100% 100%;
+	-o -background-size: 100% 100%;*/
 }
 
 header {
-
+	font-weight: bold;
 }
 
 #main-header {
 	height: 80px;
-
 }
 
 /*Logo*/
 
 .logo {
-	height:60px;
-	width:60px;
-	float: left;
-	margin-right: 10px;
-	border-radius: 50px;
+	height: 44.8px;
+	width: 38.21px;
+	float: right;
+	padding: 5px 0px 0px 0px;
+	margin: 10px 10px 0px 0px;
+}
+
+/*Search*/
+
+#search {
+	padding: 15px
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*Title*/
 
 #header-name {
 	font-size: 40px;
-	padding: 15px;
-	margin-top: 50%;
-
+	padding: 15px 15px 15px 0px;
+	margin: 10px 8px 0px 0px;
+	float: bottom;
 }
 
 /*Search*/
 
-#search {
-	float: right;
-	padding: 5px;
-	margin: 10px 10px 0px 0px;
-
-}
-
 /* Banner Section */
 
-#main-image {
-	float: left;
-	width: 70%;
-	height: 300px;
-
+#banner {
+	height: 598px;
 }
 
-#cookie-day {
-	float: right;
-	width: 30%;
-	height: 300px;
+#image-1 {
+	float: left;
+	width: 495px;
+	height: 598px;
+}
 
+#image-2a {
+	float: right;
+	width: 495px;
+	height: 294px;
+}
+
+#image-2b {
+	float: right;
+	width: 495px;
+	height: 294px;
+	margin-top: 10px;
 }
 
 /*Welcome Section*/
 #welcome {
 	float: left
 	font-size: 12px
+	height: 200px;
+}
+
+#welcome > header {
+	font-size: 24px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#main {
+
+}
+
+#image-3 {
+	width: 693px;
+	height: 371px;
+	float: left;
+}
+
+#image-4 {
+	width: 297px;
+	height: 371px;
+	float: left;
+	margin-left: 10px;
+}
+
+#image-5 {
+	width: 297px;
+	height: 371px;
+	float: left;
+	margin-top: 10px;
+}
+
+#image-6{
+	width: 693px;
+	height: 371px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*Container for News*/
+#recent-news {
+	float: left;
+	width: 693px;
 	margin: 20px 0px 20px 0px;
 }
 
-#welcome> header {
-	color: green;
-	font-size: 15px;
+#recent-news > header {
+	margin-left: 5px;
 	font-weight: bold;
-	margin: bottom;
 }
+
+#recent-news > ul {
+	list-style: none;
+
+}
+
+#recent-news > ul > li {
+	margin: 0px 0px 3px 5px;
+
+
+}
+
+
+
