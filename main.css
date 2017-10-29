@@ -58,10 +58,54 @@ header {
 	height: 598px;
 }
 
+.image-1container {
+	text-align: left;
+	color: #FFFAFA;
+	position: relative;
+}
+
+.image-1text {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 12px;
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
+}
+
+.image-1text > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
+}
+
 #image-1 {
 	float: left;
 	width: 495px;
 	height: 598px;
+}
+
+.image-2acontainer {
+	text-align: left;
+	color: #FFFAFA;
+	position: relative;
+}
+
+.image-2atext {
+	position: absolute;
+	top: 8px;
+	left: 521px;
+	font-size: 12px;
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
+}
+
+.image-2atext > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
 }
 
 #image-2a {
@@ -75,6 +119,27 @@ header {
 	width: 495px;
 	height: 294px;
 	margin-top: 10px;
+}
+
+.image-2bcontainer {
+	text-align: left;
+	color: #FFFAFA;
+	position: relative;
+}
+
+.image-2btext {
+	position: absolute;
+	top: 310px;
+	left: 521px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.image-2btext > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
 }
 
 /*Welcome Section*/
@@ -101,6 +166,27 @@ header {
 	float: left;
 }
 
+.image-34container {
+	text-align: left;
+	color: #FFFAFA;
+	position: relative;
+}
+
+.image-3text {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.image-3text > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
+}
+
 #image-4 {
 	width: 297px;
 	height: 371px;
@@ -108,11 +194,47 @@ header {
 	margin-left: 10px;
 }
 
+.image-4text {
+	position: absolute;
+	top: 8px;
+	left: 719px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.image-4text > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
+}
+
 #image-5 {
 	width: 297px;
 	height: 371px;
 	float: left;
 	margin-top: 10px;
+}
+
+.image-56container {
+	text-align: left;
+	color: #FFFAFA;
+	position: relative;
+}
+
+.image-5text {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.image-5text > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
 }
 
 #image-6{
@@ -135,6 +257,8 @@ header {
 	font-weight: bold;
 }
 
+
+
 #recent-news > ul {
 	list-style: none;
 
@@ -145,6 +269,14 @@ header {
 
 
 }
+
+#recent-news > ul > li > a {
+	text-decoration: none;
+	color: inherit;
+
+
+}
+
 
 
 
