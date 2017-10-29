@@ -43,11 +43,12 @@ header {
 
 /*Title*/
 
-#header-name {
+.company-name {
 	font-size: 40px;
 	padding: 15px 15px 15px 0px;
 	margin: 10px 8px 0px 0px;
-	float: bottom;
+	float: left;
+	width: 290px;
 }
 
 /*Search*/
@@ -224,7 +225,7 @@ header {
 
 .image-5text {
 	position: absolute;
-	top: 8px;
+	top: 389px;
 	left: 16px;
 	font-size: 12px;
 	font-weight: bold;
@@ -245,35 +246,59 @@ header {
 	margin-top: 10px;
 }
 
+.image-6text {
+	position: absolute;
+	top: 389px;
+	left: 323px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.image-6text > a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: normal;
+	font-size: 10px;
+}
+
 /*Container for News*/
-#recent-news {
+.company-info {
 	float: left;
-	width: 693px;
+	width: 100px;
+}
+
+.company-info > header {
+	margin-top: 20px;
+}
+
+#social {
+	float: right;
+	width: 900px;
 	margin: 20px 0px 20px 0px;
 }
 
-#recent-news > header {
+#social > header {
 	margin-left: 5px;
 	font-weight: bold;
 }
 
-
-
-#recent-news > ul {
-	list-style: none;
-
-}
-
-#recent-news > ul > li {
+#social > p {
 	margin: 0px 0px 3px 5px;
-
+	text-align: left;
 
 }
 
-#recent-news > ul > li > a {
+#social > p > a {
 	text-decoration: none;
 	color: inherit;
+	font-size: 10px;
+}
 
+footer {
+	width: 100%
+	margin: 20px 0px 20px 0px;
+	padding: 5px 0px 0px 0px;
+	font-size: 12px;
 
 }
 
