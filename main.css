@@ -1,13 +1,15 @@
+
 body {
 	font-family: 'Comfortaa', cursive;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	height: 100%;
 
 }
 
 header {
-	font: peachPuff;
+
 }
 
 #main-header {
@@ -17,14 +19,16 @@ header {
 
 /*Logo*/
 
-.logo{
-	height:100px;
-	width:100px;
+.logo {
+	height:60px;
+	width:60px;
 	float: left;
-	margin-right: 5px;
+	margin-right: 10px;
+	border-radius: 50px;
 }
 
 /*Title*/
+
 #header-name {
 	font-size: 40px;
 	padding: 15px;
@@ -34,7 +38,7 @@ header {
 
 /*Search*/
 
-#search{
+#search {
 	float: right;
 	padding: 5px;
 	margin: 10px 10px 0px 0px;
@@ -43,12 +47,30 @@ header {
 
 /* Banner Section */
 
-#main-image{
-	height:300px;
-	Width:700px;
+#main-image {
+	float: left;
+	width: 70%;
+	height: 300px;
 
 }
 
-#cookie-day{
+#cookie-day {
+	float: right;
+	width: 30%;
+	height: 300px;
 
+}
+
+/*Welcome Section*/
+#welcome {
+	float: left
+	font-size: 12px
+	margin: 20px 0px 20px 0px;
+}
+
+#welcome> header {
+	color: green;
+	font-size: 15px;
+	font-weight: bold;
+	margin: bottom;
 }
