@@ -39,7 +39,7 @@ header {
 	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 620px;
+	width: 630px;
 }
 
 /*Logo*/
@@ -134,6 +134,7 @@ header {
 	left: 521px;
 	font-size: 12px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .image-2btext > a {
@@ -179,6 +180,7 @@ header {
 	left: 16px;
 	font-size: 12px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .image-3text > a {
@@ -201,6 +203,7 @@ header {
 	left: 719px;
 	font-size: 12px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .image-4text > a {
@@ -229,6 +232,7 @@ header {
 	left: 16px;
 	font-size: 12px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .image-5text > a {
@@ -252,6 +256,7 @@ header {
 	left: 323px;
 	font-size: 12px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .image-6text > a {
@@ -264,17 +269,18 @@ header {
 /*Container for News*/
 .company-info {
 	float: left;
-	width: 100px;
+	width: 200px;
 }
 
 .company-info > header {
-	margin-top: 20px;
+	margin-top: 15px;
+
 }
 
 #social {
 	float: right;
-	width: 900px;
-	margin: 20px 0px 20px 0px;
+	width: 55px;
+	margin: 0px 0px 20px 0px;
 }
 
 #social > header {
@@ -283,7 +289,7 @@ header {
 }
 
 #social > p {
-	margin: 0px 0px 3px 5px;
+	margin: 0px 0px 3px 0px;
 	text-align: left;
 
 }
